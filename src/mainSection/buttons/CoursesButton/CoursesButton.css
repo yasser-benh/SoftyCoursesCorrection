@@ -1,0 +1,37 @@
+.courses-btn { 
+    width: 17rem;
+    height: 3rem;
+    border: 1px solid #d6ecff;
+    box-shadow: 0px 1px 9px 0px #2c68da;
+    background-color: white;
+    border-radius: 20px;
+    color: #2c68da;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.35s ease-in;
+    cursor: pointer;
+
+}
+.courses-btn:hover { 
+    background: linear-gradient(120deg,#2860d7,#52abf7);
+    color: white;
+    border: transparent;
+    box-shadow: 0px 1px 3px 0px #2c68da;
+}
+.courses-btn:active { 
+    transform: translateY(7px);
+}
+.courses-btn-active { 
+    width: 17rem;
+    height: 3rem;
+    border: 1px solid #d6ecff;
+    box-shadow: 0px 1px 9px 0px #2c68da;
+    background: linear-gradient(120deg,#2860d7,#52abf7);
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.35s ease-in;
+    cursor: pointer;
+
+}

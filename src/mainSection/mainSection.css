@@ -1,0 +1,47 @@
+.main-container { 
+    background-color: #f6fbff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    width: 70%;
+    margin: auto;
+    margin-top: 6rem;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+}
+.title { 
+    text-align: center;
+    width: 80rem;
+
+}
+.title h1{ 
+    font-size: 3rem;
+    color: #2c68da;
+}
+.title p { 
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.old-price { 
+    color: #febd01;
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.new-price { 
+    color: #febd01;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.btns { 
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    
+}
+.details { 
+    display: flex;
+    gap: 3rem;
+    margin-top: 5rem;
+}
